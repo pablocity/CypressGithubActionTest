@@ -3,7 +3,5 @@ description: Runs cypress tests
 
 runs:
   steps:
-    - name: Checkout
-        uses: actions/checkout@v2
     - name: Cypress tests run
         uses: cypress-io/github-action@v4
