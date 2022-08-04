@@ -8,6 +8,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Cypress tests run
-        uses: .github/actions/run-cypress
+        uses: ./.github/actions/run-cypress
         with:
           default-branch: main
