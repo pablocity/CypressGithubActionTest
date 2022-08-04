@@ -1,0 +1,22 @@
+{
+  "name": "cypressgithubactiontest",
+  "version": "1.0.0",
+  "description": "Simple repo for playing with Github Actions running Cypress tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablocity/CypressGithubActionTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pablocity/CypressGithubActionTest/issues"
+  },
+  "homepage": "https://github.com/pablocity/CypressGithubActionTest#readme",
+  "devDependencies": {
+    "cypress": "^10.4.0"
+  }
+}
